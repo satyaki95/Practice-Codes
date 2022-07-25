@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input,select{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid black;
+            box-sizing: border-box;
+
+        }
+
+        input[type=submit]{
+            background-color: aquamarine;
+            color: black;
+            padding: 12px 20px;
+            border: none;
+            
+        }
+    </style>
+</head>
+<body>
+    <form action="" id="form">
+        <div class="container">
+            <fieldset>
+                <legend>Parsonal details</legend>
+                <label for="Name">Name :</label>
+                <input type="emil" id="name" placeholder="Enter your name" >
+    
+                <label for="Name">Email :</label>
+                <input type="emil" id="emil" placeholder="Enter your email" >
+    
+                <label for="Name">Phone no :</label>
+                <input type="text" id="phone" placeholder="Enter your Phone no" >
+    
+            </fieldset>
+    
+            <fieldset>
+                <legend>Dog Details</legend>
+                <label for="Dog name">Dog name :</label>
+                <input type="text" id="dog_name" placeholder="Enter your dog name" >
+    
+                <label for="colour of dog">Your dog colour :</label>
+                <input type="text" id="dog_colour" placeholder="Enter your dog colour" >
+    
+                <label for="age of your dog">Age of your dog :</label>
+                <input type="text" id="dog-age" placeholder="Enter your dog age" >
+
+                <label for="Dog breed">Select your dog breed</label>
+                <select name="options" id="select">
+                    <option value="Rottwiler">Rottwiler</option>
+                    <option value="Labredor">Labredor</option>
+                    <option value="German Sefeard">German Sefeard</option>
+                    <option value="Pitbull">Pitbull</option>
+                    <option value="Alaskan Malamut">Alaskan Malamut</option>
+                    <option value="Tiban Mastrive">Tiban Mastrive</option>
+                </select>
+    
+            </fieldset>
+            <input type="submit" id="submit">
+    </form>
+    </div>
+
+    <script>
+        var form = document.getElementById('form');
+
+        form.addEventListener('submit', function(event){
+            event.preventDefault();
+            
+
+            var name=document.getElementById('name').value
+
+            console.log(name);
+
+            var email=document.getElementById('emil').value
+
+            console.log(email);
+
+            var phone=document.getElementById('phone').value
+
+            console.log(phone);
+
+            var dname=document.getElementById('dog_name').value
+
+            console.log(dname);
+
+            var dcolour=document.getElementById('dog_colour').value
+
+            console.log(dcolour);
+
+            var name=document.getElementById('name').value
+
+            console.log(name);
+
+            var age=document.getElementById('dog-age').value
+
+            console.log(age);
+
+            var breed=document.getElementById('select').value
+
+            console.log(breed);
+        })
+    </script>
+</body>
+</html>
