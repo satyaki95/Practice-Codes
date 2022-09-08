@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+th, tr, td{
+    padding: 0.5rem;
+}
+table{
+    display: flex;
+}
+
+.cotainer{
+    display: flex;
+    align-items: center;
+}
+.con2{
+    padding-top: 15px;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sales Tax Calculator</h1>
+    <div class="cotainer">
+    <div>
+
+    
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Type</th>
+            <th>Imported/Local</th>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="text" id="name1" >
+            </td>
+            <td>
+                <input type="number" value="0" id="quantity1" >
+            </td>
+            <td>
+                <input type="text" value="0" id="price1" >
+            </td>
+            <td>
+                <select name="" id="type1">
+                    <option value="0">Madical</option>
+                    <option value="0">Books</option>
+                    <option value="0">Food</option>
+                    <option value="10">Other</option>
+                </select>
+            </td>
+            <td>
+                <select name="" id="place1">
+                    <option value="0">Local</option>
+                    <option value="5">Imported</option>
+                </select>
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="name2" >
+            </td>
+            <td>
+                <input type="number" value="0" id="quantity2" >
+            </td>
+            <td>
+                <input type="text" value="0" id="price2" >
+            </td>
+            <td>
+                <select name="" id="type2">
+                    <option value="0">Madical</option>
+                    <option value="0">Books</option>
+                    <option value="0">Food</option>
+                    <option value="10">Other</option>
+                </select>
+            </td>
+            <td>
+                <select name="" id="place2">
+                    <option value="0">Local</option>
+                    <option value="5">Imported</option>
+                </select>
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <td>
+                <input type="text"  id="name3" >
+            </td>
+            <td>
+                <input type="number" value="0" id="quantity3" >
+            </td>
+            <td>
+                <input type="text" value="0" id="price3" >
+            </td>
+            <td>
+                <select name="" id="type3">
+                    <option value="0">Madical</option>
+                    <option value="0">Books</option>
+                    <option value="0">Food</option>
+                    <option value="10">Other</option>
+                </select>
+            </td>
+            <td>
+                <select name="" id="place3">
+                    <option value="0">Local</option>
+                    <option value="5">Imported</option>
+                </select>
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="name4" >
+            </td>
+            <td>
+                <input type="number" value="0" id="quantity4" >
+            </td>
+            <td>
+                <input type="text" value="0" id="price4" >
+            </td>
+            <td>
+                <select name="" id="type4">
+                    <option value="0">Madical</option>
+                    <option value="0">Books</option>
+                    <option value="0">Food</option>
+                    <option value="10">Other</option>
+                </select>
+            </td>
+            <td>
+                <select name="" id="place4">
+                    <option value="0">Local</option>
+                    <option value="5">Imported</option>
+                </select>
+            </td>
+        </tr>
+        </tr>
+
+    </table>
+  
+
+    <div>
+        <button onclick="calculate()">Calculate</button>
+    </div>
+</div>
+
+<div class="con2">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+        <tr id="tab1">
+            
+        </tr>
+        <tr id="tab2">
+          
+        </tr>
+        <tr id="tab3">
+            
+        </tr>
+        <tr id="tab4">
+            
+        </tr>
+    </table>
+    <div id="result">
+       
+    </div>
+</div>
+</div>
+
+</body>
+    <script src="script.js"></script>
+</body>
+</html>
