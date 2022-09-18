@@ -91,14 +91,14 @@ a.active,a:hover{
 
 /* Side Bar End */
 
-.all{
+/* .all{
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
     
-}
+} */
 
  /* Trainings Start */
 .trainings{
@@ -107,6 +107,14 @@ a.active,a:hover{
     height: 88%;
     margin-top: 10px;
     display: none; 
+}
+.trainings{
+    color: white;
+    text-align: center;
+
+}
+.trainings p{
+    padding: 10px;
 }
  /* Trainings end */
 
@@ -150,11 +158,15 @@ a.active,a:hover{
 .conference button{
 
     background-color: red;
-    font-size: 10px;
-    font-weight: bolder;
-    padding: 10px;
     border-radius: 2.5rem;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
 }
 
 
@@ -167,6 +179,13 @@ a.active,a:hover{
     height: 88%;
     margin-top: 10px;
     display: none;
+}
+
+img{
+    width: 25rem;
+    height: 15rem;
+    display: inline;
+    padding: 5px;
 }
  /* Videos End */
 
