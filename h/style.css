@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+/* Nav Start */
+
+nav{
+    background: #71797E;
+    height: 82px;
+    width: 100%;
+}
+
+label{
+    color: white;
+    font-size: 50px;
+    line-height: 80px;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    /* margin-right: 0; */
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    /* width: 120px; */
+    /* margin: 15px; */
+    padding: 30px;
+}
+
+a.active,a:hover{
+    background: red;
+    transition: .5s;
+}
+
+/* Nav end */
+
+/* Side Bar Start */
+
+.main_box{
+    position: relative;
+    background: url('a.jpg') center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+
+/* .main_box .sidebar_menu ul li{
+    width: 100%; 
+} */
+
+.sidebar_menu li{
+    padding: 10px 0;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.sidebar_menu ul li a{
+    color: white;
+    font-size: 25px;
+    display: block;
+    width: 280px;
+
+     
+}
+
+.sidebar_menu li a:hover{
+    background: yellow;
+    color: black;
+    transition: all .5s ease;
+}
+
+/* Side Bar End */
+
+.all{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+ /* Trainings Start */
+.trainings{
+    border: 6px solid yellow;
+    width: 80vw;
+    height: 88%;
+    margin-top: 10px;
+    display: none; 
+}
+ /* Trainings end */
+
+ /* Meetups Start */
+ .meetups{
+    border: 6px solid yellow;
+    width: 80vw;
+    height: 88%;
+    margin-top: 10px;
+    display: none; 
+}
+ /* Meetups end */
+
+ /* Webinars Start */
+ .webinars{
+    border: 6px solid yellow;
+    width: 80vw;
+    height: 88%;
+    margin-top: 10px;
+    display: none; 
+}
+ /* Webinars End */
+
+/* Conference Start */
+.conference{
+    border: 6px solid yellow;
+    width: 80vw;
+    height: 88%;
+    margin-top: 10px;
+    display: none; 
+}
+
+.conference{
+    color: white;
+    text-align: center;
+
+}
+.conference p{
+    padding: 10px;
+}
+.conference button{
+
+    background-color: red;
+    font-size: 10px;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 2.5rem;
+    text-decoration: none;
+}
+
+
+/* Conference end */
+
+ /* Videos Start */
+ .videos{
+    border: 6px solid yellow;
+    width: 80vw;
+    height: 88%;
+    margin-top: 10px;
+    display: none;
+}
+ /* Videos End */
+
+ /* PM Speak Series Start */
+ .pm{
+    border: 6px solid yellow;
+    width: 80vw;
+    height: 88%;
+    margin-top: 10px;
+    display: none; 
+}
+ /* PM Speak Series End */
+
+ /* Blogs Start */
+ .blogs{
+    border: 6px solid yellow;
+    width: 80vw;
+    height: 88%;
+    margin-top: 10px;
+    display: none;
+}
+ /* Blogs End */
+
+ /* Podcasts Start */
+ .podcasts{
+    border: 6px solid yellow;
+    width: 80vw;
+    height: 88%;
+    margin-top: 10px;
+    display: none; 
+}
+ /* Podcasts End */
+
+ /* Be A Speaker Start */
+ .speaker{
+    border: 6px solid yellow;
+    width: 80vw;
+    height: 88%;
+    margin-top: 10px;
+    display: none; 
+}
+ /* Be A Speaker End */
+
+ /* Be A Volunteer Start */
+ .volunteer{
+    border: 6px solid yellow;
+    width: 80vw;
+    height: 88%;
+    margin-top: 10px;
+    display: none; 
+}
+ /* Be A Volunteer End */
+
+ /* About Us Start  */
+ .about{
+    border: 6px solid yellow;
+    width: 80vw;
+    height: 88%;
+    margin-top: 10px;
+    display: none; 
+}
+ /* About Us End */
+
+
+/* Footer Start */
+
+footer a{
+    position: absolute;
+    background: orange;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 16px;
+    color: white;
+    bottom: 15px;
+    right: 15px;
+}
+
+
+/* Footer End */
