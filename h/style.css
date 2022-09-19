@@ -220,6 +220,31 @@ img{
     margin-top: 10px;
     display: none; 
 }
+
+.podcasts{
+    color: white;
+    text-align: center;
+
+}
+.podcasts p{
+    padding: 10px;
+}
+.podcasts button{
+
+    background-color: red;
+    border-radius: 2.5rem;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    left: 800px;
+    top: 300px;
+    
+}
  /* Podcasts End */
 
  /* Be A Speaker Start */
@@ -250,6 +275,32 @@ img{
     margin-top: 10px;
     display: none; 
 }
+
+.about{
+    color: white;
+    text-align: center;
+
+}
+.about p{
+    padding: 10px;
+}
+.about button{
+
+    background-color: red;
+    border-radius: 2.5rem;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    left: 800px;
+    top: 300px;
+    
+}
+
  /* About Us End */
 
 
