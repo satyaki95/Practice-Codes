@@ -52,13 +52,24 @@ let students = [
     }
   ]
 
-students.map(details);
 
-function details(name){
-    var name =  name.name;
-    var batch = (name.batch);
-    
-    console.log(name);
-    console.log(batch);
-    
-}
+let studentDetails = students.map(student => {
+  let marksArray = Object.values(student.marks)
+  let totalMarks = 0
+  marksArray.forEach(marks => {
+    totalMarks = totalMarks + marks
+  })
+  let averageMarks = totalMarks / marksArray.length
+  return {
+    name: student.name,
+    batch: student.batch, 
+    averageMarks: averageMarks
+  }
+})
+
+console.log(studentDetails)
+
+  
+
+
+
