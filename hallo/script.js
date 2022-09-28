@@ -69,7 +69,3 @@ let studentDetails = students.map(student => {
 
 console.log(studentDetails)
 
-  
-
-
-
